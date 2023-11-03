@@ -2,7 +2,7 @@
 
 This React project creates an interface to manage a list of friends, enabling the addition of new friends, selection of friends for bill splitting, and displaying information about outstanding balances.
 
-#### Project Summary
+## Project Summary
 The project comprises an application with the following functionalities:
 
 1. **Friends List:** Displays a list of friends with their names, profile images, and information regarding owed or owed-to balances.
@@ -10,7 +10,7 @@ The project comprises an application with the following functionalities:
 3. **Friend Selection:** Enables the selection of a friend from the list for operations like bill splitting.
 4. **Bill Splitting:** Upon selecting a friend, users can access a form to divide a specific bill between themselves and the selected friend.
 
-#### Key Components and Features
+## Key Components and Features
 
 ##### 1. `App` Component
 - Maintains the state of friends, controls the visibility for adding a friend, and the selected friend.
@@ -19,25 +19,25 @@ The project comprises an application with the following functionalities:
 - `handleAddFriend(friend)`: Adds a new friend to the friends list.
 - `handleSelection(friend)`: Updates the selected friend in the interface.
 
-##### 2. `Button` Component
+## 2. `Button` Component
 - Reusable button component used to handle different actions within the application.
 
-##### 3. `FriendsList` Component
+## 3. `FriendsList` Component
 - Renders the list of friends received as a property.
 - Passes the necessary properties to the `Friend` component for individual display of each friend.
 
-##### 4. `Friend` Component
+## 4. `Friend` Component
 - Renders each friend individually, displaying the name, image, balance, and a button to select the friend.
 
-##### 5. `FormAddFriend` Component
+## 5. `FormAddFriend` Component
 - Allows the addition of a new friend to the list.
 - Contains a form with fields for the friend's name and image URL.
 
-##### 6. `FormSplitBill` Component
+## 6. `FormSplitBill` Component
 - Enables users to split a bill with the selected friend.
 - Contains fields to input the bill value, user's expense, selected friend's expense, and a selection of who will pay the bill.
 
-#### Key Concepts Utilized
+## Key Concepts Utilized
 
 1. **State (`useState`):** Used to control the display of the friends list, add friends and bill-splitting forms, and to track the selected friend.
 
