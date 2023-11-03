@@ -1,8 +1,52 @@
-# React + Vite
+### Project Documentation
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This React project creates an interface to manage a list of friends, enabling the addition of new friends, selection of friends for bill splitting, and displaying information about outstanding balances.
 
-Currently, two official plugins are available:
+#### Project Summary
+The project comprises an application with the following functionalities:
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+1. **Friends List:** Displays a list of friends with their names, profile images, and information regarding owed or owed-to balances.
+2. **Adding Friends:** Allows the addition of new friends to the list through a form.
+3. **Friend Selection:** Enables the selection of a friend from the list for operations like bill splitting.
+4. **Bill Splitting:** Upon selecting a friend, users can access a form to divide a specific bill between themselves and the selected friend.
+
+#### Key Components and Features
+
+##### 1. `App` Component
+- Maintains the state of friends, controls the visibility for adding a friend, and the selected friend.
+- Uses states to control the display of the add friend form, the friend list, and the bill-splitting form.
+- `handleShowAddFriend()`: Toggles the visibility of the add friend form.
+- `handleAddFriend(friend)`: Adds a new friend to the friends list.
+- `handleSelection(friend)`: Updates the selected friend in the interface.
+
+##### 2. `Button` Component
+- Reusable button component used to handle different actions within the application.
+
+##### 3. `FriendsList` Component
+- Renders the list of friends received as a property.
+- Passes the necessary properties to the `Friend` component for individual display of each friend.
+
+##### 4. `Friend` Component
+- Renders each friend individually, displaying the name, image, balance, and a button to select the friend.
+
+##### 5. `FormAddFriend` Component
+- Allows the addition of a new friend to the list.
+- Contains a form with fields for the friend's name and image URL.
+
+##### 6. `FormSplitBill` Component
+- Enables users to split a bill with the selected friend.
+- Contains fields to input the bill value, user's expense, selected friend's expense, and a selection of who will pay the bill.
+
+#### Key Concepts Utilized
+
+1. **State (`useState`):** Used to control the display of the friends list, add friends and bill-splitting forms, and to track the selected friend.
+
+2. **Functional Components:** Entire code composed of React functional components, promoting modularity and code reusability.
+
+3. **Event Handling:** React events are utilized to handle the addition of friends, friend selection, and button actions.
+
+4. **Conditional Rendering:** Conditional rendering is implemented based on state to show or hide components in the user interface.
+
+5. **Component Communication:** Components communicate through property passing, allowing interaction between different parts of the application.
+
+This project demonstrates a basic application that can be expanded to include more functionalities and enhancements such as managing more detailed expense information, automated calculations, and more.
