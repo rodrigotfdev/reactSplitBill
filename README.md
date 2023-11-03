@@ -39,15 +39,15 @@ The project comprises an application with the following functionalities:
 
 ### Key Concepts Used
 
-✅. **State (`useState`):** Used to control the display of the friends list, add friends and bill-splitting forms, and to track the selected friend.
+✅ **State (`useState`):** Used to control the display of the friends list, add friends and bill-splitting forms, and to track the selected friend.
 
-✅. **Functional Components:** Entire code composed of React functional components, promoting modularity and code reusability.
+✅ **Functional Components:** Entire code composed of React functional components, promoting modularity and code reusability.
 
-✅. **Event Handling:** React events are utilized to handle the addition of friends, friend selection, and button actions.
+✅ **Event Handling:** React events are utilized to handle the addition of friends, friend selection, and button actions.
 
-✅. **Conditional Rendering:** Conditional rendering is implemented based on state to show or hide components in the user interface.
+✅ **Conditional Rendering:** Conditional rendering is implemented based on state to show or hide components in the user interface.
 
-✅. **Component Communication:** Components communicate through property passing, allowing interaction between different parts of the application.
+✅ **Component Communication:** Components communicate through property passing, allowing interaction between different parts of the application.
 
 This project demonstrates a basic application that can be expanded to include more functionalities and enhancements such as managing more detailed expense information, automated calculations, and more.
 
