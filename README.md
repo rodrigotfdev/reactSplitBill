@@ -1,4 +1,4 @@
-### Project Documentation
+# Project Documentation
 
 This React project creates an interface to manage a list of friends, enabling the addition of new friends, selection of friends for bill splitting, and displaying information about outstanding balances.
 
@@ -10,7 +10,7 @@ The project comprises an application with the following functionalities:
 3. **Friend Selection:** Enables the selection of a friend from the list for operations like bill splitting.
 4. **Bill Splitting:** Upon selecting a friend, users can access a form to divide a specific bill between themselves and the selected friend.
 
-### Key Components and Features
+## Key Components and Features
 
 ### 1. `App` Component
 - Maintains the state of friends, controls the visibility for adding a friend, and the selected friend.
