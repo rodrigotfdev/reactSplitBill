@@ -37,16 +37,27 @@ The project comprises an application with the following functionalities:
 - Enables users to split a bill with the selected friend.
 - Contains fields to input the bill value, user's expense, selected friend's expense, and a selection of who will pay the bill.
 
-### Key Concepts Utilized
+### Key Concepts Used
 
-1. **State (`useState`):** Used to control the display of the friends list, add friends and bill-splitting forms, and to track the selected friend.
+✅. **State (`useState`):** Used to control the display of the friends list, add friends and bill-splitting forms, and to track the selected friend.
 
-2. **Functional Components:** Entire code composed of React functional components, promoting modularity and code reusability.
+✅. **Functional Components:** Entire code composed of React functional components, promoting modularity and code reusability.
 
-3. **Event Handling:** React events are utilized to handle the addition of friends, friend selection, and button actions.
+✅. **Event Handling:** React events are utilized to handle the addition of friends, friend selection, and button actions.
 
-4. **Conditional Rendering:** Conditional rendering is implemented based on state to show or hide components in the user interface.
+✅. **Conditional Rendering:** Conditional rendering is implemented based on state to show or hide components in the user interface.
 
-5. **Component Communication:** Components communicate through property passing, allowing interaction between different parts of the application.
+✅. **Component Communication:** Components communicate through property passing, allowing interaction between different parts of the application.
 
 This project demonstrates a basic application that can be expanded to include more functionalities and enhancements such as managing more detailed expense information, automated calculations, and more.
+
+## See it in practice
+
+You can preview the application at the following link: [VERCEL LIVE APP PREVIEW](https://splitbill-phi.vercel.app/)
+
+or clone the repository to your computer and run 'npm install' and 'npm run dev' in the terminal to open it.
+
+## Project Images
+
+![image](https://github.com/rodrigotfdev/reactSplitBill/assets/52326702/455fe2c2-0477-4186-9ecd-780ebebbf1d8)
+
